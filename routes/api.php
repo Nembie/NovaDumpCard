@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Nembie\NovaDumpDb\DumpController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/endpoint', function (Request $request) {
-//     //
-// });
+Route::post('/dump', [DumpController::class, 'dump']);

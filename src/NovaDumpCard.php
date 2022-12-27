@@ -22,4 +22,37 @@ class NovaDumpCard extends Card
     {
         return 'nova-dump-card';
     }
+
+    /**
+     * Set the path to the dump binary.
+     *
+     * @param string $path
+     * @return $this
+     */
+    public function sqlDumpPath($path)
+    {
+        return $this->withMeta(['sqlDumpPath' => $path]);
+    }
+
+    /**
+     * Set the path where the dump will be stored.
+     *
+     * @param string $path
+     * @return $this
+     */
+    public function dumpPath($path)
+    {
+        return $this->withMeta(['dumpPath' => $path]);
+    }
+
+    /**
+     * Set the name of the database.
+     *
+     * @param string $database
+     * @return $this
+     */
+    public function database($database)
+    {
+        return $this->withMeta(['database' => $database]);
+    }
 }
