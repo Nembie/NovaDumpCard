@@ -94,7 +94,7 @@ export default {
 				database: this.card.database
 			};
 
-			axios.post('/nova-vendor/nova-dump-db/dump', params)
+			axios.post('/nova-vendor/nova-dump-card/dump', params)
 				.then(response => {
 					this.dumpName = '';
 					this.loading = false;
