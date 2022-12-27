@@ -1,6 +1,6 @@
 <?php
 
-namespace Nembie\NovaDumpDb;
+namespace Nembie\NovaDumpCard;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
