@@ -37,9 +37,9 @@ public function cards()
 {
     return [
         (new NovaDumpCard())
-            ->sqlDumpPath('/opt/homebrew/bin/mysqldump')
-            ->dumpPath(public_path())
-            ->database('db')
+            ->sqlDumpPath('/opt/homebrew/bin/mysqldump') // By default is 'mysqldump'
+            ->dumpPath(public_path()) // By default is storage_path()
+            ->database('database_name')
     ];
 }
 
