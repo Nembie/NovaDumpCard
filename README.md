@@ -9,7 +9,7 @@ This card is only working for MySQL and SQLite.
 </p>
 
 <p align="center">
-  <a href="https://github.com/Nembie/NovaDumpCard/blob/master/LICENSE">
+  <a href="https://github.com/Nembie/NovaDumpCard/blob/main/LICENSE.md">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Released under the MIT license." />
   </a>
   <a href="https://github.com/Nembie/NovaDumpCard/pulls">
